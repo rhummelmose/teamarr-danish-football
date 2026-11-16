@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teamarr-danish-football"
+version = "0.1.0"
+description = "Free official-fixture providers for Betinia Ligaen and A-Ligaen in Teamarr"
+requires-python = ">=3.11"
+license = {text = "AGPL-3.0-only"}
+readme = "README.md"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["teamarr_danish*"]
